@@ -1,0 +1,46 @@
+/* Write your CSS here */
+
+.each-similar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 10px;
+}
+
+.similar-image {
+  width: 60%;
+  margin: 0px;
+  border-radius: 10px;
+}
+
+.similar-price-rating-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+}
+
+.similar-rating-para {
+  width: 60px;
+  background-color: #3b82f6;
+  color: #ffffff;
+  border-radius: 7px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.similar-title {
+  margin: 0px;
+  margin-top: 5px;
+}
+
+.similar-para {
+  margin: 0px;
+  margin-top: 5px;
+}
